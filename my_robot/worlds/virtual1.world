@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<world name="default">
+		
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>  
+		
+		<!-- A table -->
+		<include>
+			<uri>model://table</uri>
+			<static>true</static>
+			<pose>1 1 0.01 0 0 0</pose>
+		</include>
+		
+		<!-- A plastic cup -->
+		<include>
+			<uri>model://plastic_cup</uri>
+			<static>true</static>
+			<pose>1 1 1.01 0 0 0</pose>
+		</include>
+		
+		<!-- A mail box -->
+		<include>
+			<uri>model://mailbox</uri>
+			<static>true</static>
+			<pose>-1 0.5 0.01 0 0 0</pose>
+		</include>
+		
+		<!-- A hammer -->
+		<include>
+			<uri>model://hammer</uri>
+			<static>true</static>
+			<pose>-1.2 2 0.01 0 0 0</pose>
+		</include>
+		
+		<!-- A cafe table -->
+		<include>
+			<uri>model://cafe_table</uri>
+			<static>true</static>
+			<pose>-0.2 1.3 0.01 0 0 0</pose>
+		</include>
+		
+		
+	</world>
+</sdf>
